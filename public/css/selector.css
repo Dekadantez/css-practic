@@ -1,0 +1,239 @@
+* :root {
+  background: purple;
+}
+
+html {
+  max-width: 720px;
+
+  background: blue;
+}
+
+
+
+body {
+  background: #fff;
+}
+
+* {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+.box {
+  background: rgba(2, 89, 51, 0.333);
+}
+
+#user {
+  color: green;
+}
+
+h1,
+h2,
+button {
+  color: blue;
+}
+
+.button {
+  background: red;
+  color: black;
+}
+
+div > p {
+  color:rgb(231, 76, 19);
+} */
+
+
+
+.card-dark {
+  background: rgb(245, 237, 237);
+}
+
+.item {
+  color: green;
+}
+
+.item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  color: red;
+}
+
+.item:only-child {
+  color: yellow;
+}
+.item:first-of-type {
+  color: rgb(0, 255, 128);
+}
+
+.item:last-of-type {
+  color: rgb(22, 5, 129);
+}
+
+.input-dark {
+  background: rgb(221, 206, 206);
+}
+
+.input-dark[required] {
+  background: rgb(241, 8, 8);
+}
+
+.input-dark[type='number'] {
+  background: rgb(133, 231, 154);
+}
+
+.small-img[alt~="small"] {
+  height: 500px;
+}
+
+a[rel~="external"] {
+  color: green;
+}
+
+button[class|="btn"] {
+  background: rgb(225, 216, 216);
+}
+
+a[class^="btn"] {
+  background: rgb(76, 217, 205);
+}
+
+a[class*="btn"] {
+  background: rgb(189, 217, 76);
+}
+
+.btn::first-letter {
+  color: red;
+}
+
+
+.big-text::first-line {
+  color:red;
+}
+
+.input-dark::placeholder {
+  color: green;
+  background: rgb(188, 188, 236);
+}
+
+.big-text::before,
+.big-text::after {
+  content: "$$$$$$$";
+  color: green;
+}
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color: red;
+}
+
+.link:hover {
+  color: green;
+}
+
+.card:hover {
+  color: green;
+}
+
+.link:active {
+  color: purple;
+}
+
+.card:active {
+  background-color: purple;
+}
+
+input {
+  background-color: gray;
+}
+
+input:focus {
+  background-color: red;
+}
+
+.card:focus-within {
+  background: red;
+}
+
+.card:lang(en) > span::after {
+  content: '(en)';
+}
+
+
+button:enabled {
+  background-color: rgb(141, 236, 134);
+}
+
+button:disabled {
+  background-color: rgb(225, 222, 213);
+}
+
+.inp:read-write {
+  background-color: rgb(136, 136, 237);
+}
+
+input[type='checkbox']:checked ~ span {
+  background: red;
+}
+
+.valid:valid {
+  background: yellow;
+}
+
+.valid:invalid {
+  background: rgb(229, 186, 186);
+}
+
+.valid:optional {
+  background: rgb(56, 235, 164);
+}
+
+.number:focus {
+  background: grey;
+}
+
+.number:out-of-range {
+  background: red;
+}
+
+.number:in-range {
+  background: green;
+}
+
+.number:invalid {
+  background-color: yellow;
+}
+
+input:placeholder-shown ~ span {
+  background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
