@@ -1,3 +1,8 @@
+:root {
+    --text-color: #212529;
+}
+
+
 .page {
     background: #FFFFFF;
     padding: 0 15px;
@@ -163,6 +168,7 @@
     outline-offset: 5px;
     box-shadow: 5px 2px 20px red;
     cursor: grab;
+    opacity: 0.1;
 }
 
 .btn {
@@ -192,6 +198,106 @@ p {
 
     text-overflow: ellipsis;
 }
+
+
+body {
+    background-image: url('/img/bild.jpg');
+    
+}
+
+.page {
+    /* background-image: url('/img/bild.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    
+}
+
+.hero_text {
+        height: 500;
+    width: 500;
+   
+    padding: 40px;
+    color: #36cf3b;
+    
+    border-image-source: url('/img/bild.jpg');
+    border-image-width: 50%;
+    border-image-slice: 900;
+}
+
+.card_block {
+    list-style-type: upper-alpha;
+    list-style-position: outside;
+    padding: 0;
+}
+
+.card_description_item {
+    display: list-item;
+}
+
+.table tr {
+    border: 1px solid black;
+}
+
+.table tr td {
+    border: 1px solid rgb(119, 104, 104);
+    border-bottom-color: red;
+    border-right-color: blue;
+}
+
+.table {
+    table-layout: fixed;
+    width: 600px;
+    border-collapse: unset;
+    border-spacing: 10px;
+    caption-side: top;
+    empty-cells: hide;
+}
+
+.nav_link::before {
+    content: open-quote;
+}
+
+.nav_link::after {
+    content: close-quote;
+}
+
+.nav_link::before,
+.nav_link::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.nav_link::before {
+    margin-right: 15px;
+}
+
+.nav_link::after {
+    margin-left: 15px;
+}
+
+.calc {
+    width: 600px;
+    margin-left: calc(50% - (600px / 2));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
