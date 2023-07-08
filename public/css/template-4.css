@@ -1,0 +1,254 @@
+:root {
+    --space-m: 12px;
+    --space-xm: 16px;
+    --space-l: 24px;
+    --space-b: 36px;
+
+    --size-s: 14px;
+    --size-d: 16px;
+    --size-l: 20px;
+
+    --color-border: #dee2e6;
+    --color-primary: rgb(47, 47, 247);
+    --color-light: #fff;
+    --color-title: #212529;
+    --color-text: #343a40;
+    --color-newbor: #6C757D;
+
+    --border-radius: 12px;
+
+    --weight-title: 500;
+    --weight-text: 400;
+
+}
+
+/*========================================*/
+.page {
+    background: var(--color-light);
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.page_content {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 80px;
+}
+
+/*========================================*/
+.header {
+    padding: var(--space-l) 0;
+    border-bottom: 1px solid var(--color-border);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 17px;
+    color: var(--color-light);
+    background: var(--color-primary);
+
+    width: 24px;
+    height: 24px;
+    border-radius: calc(var(--border-radius) / 2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav_inline {
+    gap: var(--space-l);
+}
+
+.nav_vertical {
+    gap: var(--space-xm);
+    flex-direction: column;
+}
+
+.nav_link {
+    color: var(--color-text);
+    font-size: var(--size-d);
+    text-decoration: none;
+
+    line-height: 100%;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+.footer {
+    padding: var(--space-l) 0;
+    border-top: 1px solid #dee2e6;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_copyright {
+    font-size: var(--size-s);
+    color: var(--color-text);
+    display: block;
+    margin-top: var(--space-l);
+}
+
+
+.footer_title {
+    font-size: var(--size-l);
+    color: var(--color-title);
+    display: block;
+    margin-bottom: var(--space-l);
+    font-weight: var(--weight-title);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    padding: var(--space-1);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.main_img {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+
+}
+
+.main_title {
+    align-self: stretch;
+    font-size: 36px;
+    color: #5a5a5a;
+    font-weight: var(--weight-title);
+    line-height: 120%;
+}
+
+.main_text {
+    color: #5a5a5a;
+    font-size: var(--size-d);
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.main_button {
+    padding: 12px 16px;
+    color: var(--color-light);
+    font-size: var(--size-d);
+    font-weight: var(--weight-text);
+    border-radius: 4px;
+    border: 1px solid var(--color-newbor);
+    background: var(--color-newbor);
+    width: 100%;
+    max-width: 120px;
+}
+
+.featured {
+    display: flex;
+
+    border-bottom: 1px solid var(--color-border);
+    padding: 0 0 40px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    text-align: flex-start;
+    padding: 0 26px 0 26px;
+    gap: 24px;
+    /* max-width: 333px; */
+
+    width: max-content;
+
+}
+
+.card_image {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: var(--border-radius);
+
+}
+
+.card_title {
+
+    color: var(--color-title);
+    font-size: 32px;
+    font-weight: var(--weight-title);
+}
+
+.card_text {
+
+    color: var(--color-title);
+    font-size: var(--size-d);
+    font-weight: var(--weight-text);
+    max-height: 62px;
+    max-width: 282px;
+    height: 100%;
+
+
+
+}
+
+.featured_button {
+    font-size: var(--size-d);
+    font-weight: var(--weight-text);
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background: #563D7C;
+}
+
+
+.actions_title {
+    color: var(--color-light);
+    font-size: 24px;
+    font-weight: var(--weight-text);
+    padding: 0 0 12px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 240;
+    height: 52;
+}
+
+.actions_button {
+    color: var(--color-title);
+    background-color: var(--color-light);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 16px;
+
+}
