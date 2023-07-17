@@ -14,13 +14,14 @@
 }
 
 .header {
-  padding: 24px;
-  border-bottom: 1px solid #dee2e6;
+    padding: 24px;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .header_logo {
     font-size: 17px;
 }
+
 .divider {
     margin: 0;
     height: 1px;
@@ -28,13 +29,13 @@
 }
 
 .nav {
-  display: block;
+    display: block;
 }
 
 .nav_link {
-  color: #343a40;
-  font-size: 16px;
-  text-decoration: none;
+    color: #343a40;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .nav_link:hover {
@@ -42,16 +43,16 @@
     color: blue;
 }
 
-.nav_vertical > .nav_link {
+.nav_vertical>.nav_link {
     display: block;
 
 }
 
-.nav_inLine > .nav_link:not(:last-child) {
+.nav_inLine>.nav_link:not(:last-child) {
     margin-right: 24px;
 }
 
-.nav_vertical > .nav_link:not(:last-child) {
+.nav_vertical>.nav_link:not(:last-child) {
     margin-bottom: 12px;
 }
 
@@ -80,7 +81,7 @@
 .footer_title {
     font-size: 20px;
     color: #212529;
-    display:block;
+    display: block;
     margin-bottom: 12px;
 }
 
@@ -117,9 +118,9 @@
 }
 
 .card_price_amount {
-     font-size: 40px;
-    color:#212529;
-    
+    font-size: 40px;
+    color: #212529;
+
 }
 
 .card_price_duration {
@@ -139,10 +140,10 @@
 
 .card_description_item {
     font-size: 16px;
-    color:#212529;
-    display:block;
+    color: #212529;
+    display: block;
 
-    
+
 }
 
 .card_description_item:not(:last-of-type) {
@@ -154,7 +155,7 @@
     width: 100%;
     font-size: 19px;
     padding: 9px;
-    
+
 }
 
 .card {
@@ -180,18 +181,18 @@ h1 {
     text-shadow: 5px 2px 5px red;
 }
 
-.plans_card:nth-child(2) > .card {
+.plans_card:nth-child(2)>.card {
     background: red;
 }
 
-.plans_card:nth-child(2) {
+/* .plans_card:nth-child(2) {
     visibility: hidden;
-}
+} */
 
 p {
     background: gray;
-    width:200px;
-    height: 100px; 
+    width: 200px;
+    height: 100px;
 
     overflow-y: scroll;
     overflow-x: hidden;
@@ -202,7 +203,7 @@ p {
 
 body {
     background-image: url('/img/bild.jpg');
-    
+
 }
 
 .page {
@@ -211,16 +212,16 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed; */
-    
+
 }
 
 .hero_text {
-        height: 500;
+    height: 500;
     width: 500;
-   
+
     padding: 40px;
     color: #36cf3b;
-    
+
     border-image-source: url('/img/bild.jpg');
     border-image-width: 50%;
     border-image-slice: 900;
@@ -284,32 +285,3 @@ body {
     width: 600px;
     margin-left: calc(50% - (600px / 2));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
