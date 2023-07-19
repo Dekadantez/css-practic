@@ -1,0 +1,49 @@
+
+{{#with header}}
+  <header class='header'>
+    {{> headerDark}}
+  </header>
+  
+  <div class="ad">
+    {{#with ad}}
+    <badge class="ad_icon">Ad</badge>
+    <span class="ad_text">{{text}} :</span>
+    <a href="{{url}}" class="ad_url">{{url}}</a>
+    {{/with}}
+    <span class="ad_online">User online: {{userOnline}}</span>
+  </div>          
+{{/with}}
+{{#with hero}}
+<main class="hero">
+  <h1 class="hero_title">{{title}}</h1>
+  <span class="hero_text">{{description}}</span>
+  <a href="{{button.url}}" class="hero_button">{{button.text}}</a>
+</main>
+{{/with}}
+
+{{#with about}}
+<div class="about">
+  <h2 class="about_heading">{{heading}}</h2>
+  <span class="about_info">{{info}}</span>
+</div>
+{{/with}}
+
+<section class="articles">
+  <div class="articles_title">
+    <h2 class="title">Our articles</h2>
+    <button class="title_button">View All</button>
+  </div>
+
+   <div class="articles_card">
+  {{#each articles}}
+     {{> articleCardDark}}
+  {{/each}}
+  </div>
+</section>
+
+<footer class="footer_block">
+  {{#with footer}}
+    {{> footerDark}}
+  {{/with}}
+</footer>
+
